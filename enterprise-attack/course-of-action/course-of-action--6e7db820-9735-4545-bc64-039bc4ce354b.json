@@ -1,23 +1,27 @@
 {
+    "id": "bundle--e7b5d432-f836-45d0-9d1a-4eef24592d8f",
+    "type": "bundle",
+    "spec_version": "2.0",
     "objects": [
         {
-            "name": "LC_MAIN Hijacking Mitigation",
-            "description": "Enforce valid digital signatures for signed code on all applications and only trust applications with signatures from trusted parties.",
             "external_references": [
                 {
-                    "url": "https://attack.mitre.org/wiki/Technique/T1149",
+                    "url": "https://attack.mitre.org/techniques/T1149",
                     "source_name": "mitre-attack",
                     "external_id": "T1149"
                 }
             ],
-            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
             "id": "course-of-action--6e7db820-9735-4545-bc64-039bc4ce354b",
-            "created": "2018-04-18T17:59:24.739Z",
-            "modified": "2018-04-18T17:59:24.739Z",
-            "type": "course-of-action"
+            "name": "LC_MAIN Hijacking Mitigation",
+            "type": "course-of-action",
+            "x_mitre_version": "1.0",
+            "modified": "2018-10-17T00:14:20.652Z",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "description": "Enforce valid digital signatures for signed code on all applications and only trust applications with signatures from trusted parties."
         }
-    ],
-    "type": "bundle",
-    "id": "bundle--168f42f5-f17a-40b0-a5d1-e2305c0c795b",
-    "spec_version": "2.0"
+    ]
 }
